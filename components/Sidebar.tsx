@@ -77,27 +77,29 @@ export const Sidebar = ({ className }: Props) => (
         <DownloadAppButton />
       </ClerkLoaded>
     </div> */}
-    <div className="relative flex h-[60px] mb-5 items-center sm:max-lg:justify-center">
-      <ClerkLoading>
-        <Loader className="w-5 h-5 text-muted-foreground animate-spin" />
-      </ClerkLoading>
-      <ClerkLoaded>
-        <UserButton
-          appearance={{
-            elements: {
-              rootBox: "w-full sm:max-lg:w-auto",
-              userButtonAvatarBox: "size-10",
-              userButtonTrigger: cn(
-                buttonVariants({ variant: "secondary" }),
-                "w-full h-auto justify-start py-2 px-4 sm:max-lg:w-auto sm:max-lg:px-2"
-              ),
-            },
-          }}
-        />
-      </ClerkLoaded>
-      <span className="pointer-events-none text-slate-500 absolute ml-20 font-bold uppercase sm:max-lg:sr-only">
-        My Profile
-      </span>
+    <div className="hidden lg:block">
+      <div className="relative flex h-[60px] mb-5 items-center sm:max-lg:justify-center">
+        <ClerkLoading>
+          <Loader className="w-5 h-5 text-muted-foreground animate-spin" />
+        </ClerkLoading>
+        <ClerkLoaded>
+          <UserButton
+            appearance={{
+              elements: {
+                rootBox: "w-full sm:max-lg:w-auto",
+                userButtonAvatarBox: "size-10",
+                userButtonTrigger: cn(
+                  buttonVariants({ variant: "secondary" }),
+                  "w-full h-auto justify-start py-2 px-4 sm:max-lg:w-auto sm:max-lg:px-2 "
+                ),
+              },
+            }}
+          />
+        </ClerkLoaded>
+        <span className="pointer-events-none text-slate-500 absolute ml-20 font-bold uppercase sm:max-lg:sr-only">
+          My Profile
+        </span>
+      </div>
     </div>
 
     <div className="flex flex-col text-slate-50 items-center max-[380px]:text-xs text-sm lg:text-xs mb-4 pt-4 border-t-2">
