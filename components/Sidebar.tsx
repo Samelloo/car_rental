@@ -46,7 +46,7 @@ export const Sidebar = ({ className }: Props) => (
       ))}
 
       {isAdmin() && (
-        <SidebarItem label="Admin" href="/admin" iconSrc="/mascot.svg" />
+        <SidebarItem label="Admin console" href="/admin" iconSrc="/boy.svg" />
       )}
     </div>
 

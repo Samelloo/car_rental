@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lingo | Lesson page",
+  title: "GenQ | Lesson page",
   description: "Here, you can start your lesson right away !",
 };
 

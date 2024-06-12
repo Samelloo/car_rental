@@ -88,7 +88,7 @@ const Card: FC<CardProps> = ({
           {text}
         </p>
 
-        <div
+        {/* <div
           className={cn(
             "lg:size-8 size-5 border-2 flex items-center justify-center rounded-lg to-neutral-400 lg:text-[15px] text-xs font-semibold",
             selected && "border-sky-300 text-sky-500",
@@ -99,7 +99,7 @@ const Card: FC<CardProps> = ({
           )}
         >
           {shortcut}
-        </div>
+        </div> */}
       </div>
     </div>
   );
