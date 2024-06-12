@@ -193,7 +193,7 @@ export const Quiz: FC<QuizProps> = ({
           />
 
           <h1 className="text-xl lg:text-3xl text-neutral-700 font-bold">
-            Great job ! <br /> You've completed the lesson.
+            Great job ! <br /> You've completed the lesson..
           </h1>
 
           <div className="flex items-center gap-x-4 w-full">
