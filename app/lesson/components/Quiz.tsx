@@ -230,7 +230,7 @@ export const Quiz: FC<QuizProps> = ({
           <div className="lg:min-h-[350px] lg:w-[600px] w-full px-6 lg:px-0 flex flex-col gap-y-12">
             <h1 className="text-lg lg:text-3xl text-center lg:text-start font-bold text-neutral-700">
               {currentChallenge.type === "ASSIST"
-                ? "Select the correct meaning"
+                ? "Tap the correct answer"
                 : currentChallenge.question}
             </h1>
 
