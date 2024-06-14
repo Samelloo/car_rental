@@ -9,7 +9,7 @@ export default async function sitemap() {
     "/admin",
     "/lesson",
   ].map((route) => ({
-    url: `https://demo1.genqdigital.com${route}`,
+    url: `https://beta.genqdigital.com${route}`,
     lastModified: new Date().toISOString(),
   }));
 
