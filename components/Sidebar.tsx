@@ -23,7 +23,7 @@ export const Sidebar = ({ className }: Props) => (
     <Link href="/">
       <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
         <Image
-          src="/genqnew.svg"
+          src="/newgenq.png"
           priority
           alt="genq"
           width={190}
@@ -48,6 +48,7 @@ export const Sidebar = ({ className }: Props) => (
       {isAdmin() && (
         <SidebarItem label="Admin console" href="/admin" iconSrc="/boy.svg" />
       )}
+      {/* <DownloadAppButton /> */}
     </div>
 
     {/* <div className="py-4 px-2 flex justify-between items-center">
@@ -77,6 +78,7 @@ export const Sidebar = ({ className }: Props) => (
         <DownloadAppButton />
       </ClerkLoaded>
     </div> */}
+
     <div className="hidden lg:block">
       <div className="relative flex h-[60px] mb-5 items-center sm:max-lg:justify-center">
         <ClerkLoading>

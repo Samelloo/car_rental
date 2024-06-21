@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <>
       <div className="relative w-[240px] h-[240px] lg:w-[424px] animate-accordion-down lg:h-[424px] mb-8 lg:mb-0">
-        <Image src="genq.svg" priority fill alt="Hero" />
+        <Image src="/newgenq.png" priority fill alt="Hero" />
       </div>
 
       <div className="flex flex-col items-center gap-y-8">

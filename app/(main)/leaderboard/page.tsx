@@ -16,7 +16,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Separator } from "@/components/ui/separator";
 
 export const metadata = {
-  title: "Lingo | Leaderboard page",
+  title: "genq | Leaderboard page",
   description: "See where you stand among other learners in the community.",
 };
 
@@ -43,7 +43,7 @@ const LeaderBoardPage = async () => {
       <FeedWrapper>
         <div className="w-full flex flex-col items-center">
           <Image
-            src="/leaderboard1.svg"
+            src="img/leaderboard1.svg"
             alt="Leaderboard"
             height={90}
             width={90}

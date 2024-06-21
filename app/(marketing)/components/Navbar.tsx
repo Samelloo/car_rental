@@ -16,7 +16,13 @@ const Navbar = () => {
       <nav className="lg:max-w-screen-lg mx-auto flex items-center justify-between h-full">
         <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
           {" "}
-          <Image src="/genq.svg" priority alt="Mascot" width={50} height={50} />
+          <Image
+            src="/newgenq.png"
+            priority
+            alt="Mascot"
+            width={70}
+            height={70}
+          />
           {/* If you want to put some key word here please un comment the below line */}
           {/* <h1 className="text-2xl font-extrabold text-yellow tracking-wide">
             Gen-Q
