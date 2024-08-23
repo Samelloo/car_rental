@@ -16,8 +16,8 @@ export const QuestionBubble: FC<QuestionBubbleProps> = ({ question }) => {
         className="size-40 lg:size-40"
       />
 
-      <div className="relative py-2 px-4 border-2 rounded-xl text-xl lg:xl">
-        {question}
+      <div className="relative py-3 px-4 border-2 rounded-xl text-5xl font-bold lg:5xl">
+        <h1 className="mt-2"> {question}</h1>
         <div className="absolute size-0 border-x-8 -left-3 top-1/2 border-x-transparent border-t-8 transform -translate-y-1/2 rotate-90" />
       </div>
     </div>

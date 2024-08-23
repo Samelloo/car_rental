@@ -43,7 +43,7 @@ const SubscriptionNote = () => {
             className="absolute top-1 right-1 text-neutral-500 cursor-pointer"
             onClick={handleClick}
           />
-          Stripe is in development mode, which means You don't need to actually
+          Payment is in development mode, which means You don't need to actually
           pay for Subscription. just simply use this{" "}
           <span className="text-md font-bold">4242-4242-4242-4242</span> card
           number and add a valid Expiration (for example: 06 / 30).

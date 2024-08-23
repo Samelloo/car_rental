@@ -47,7 +47,7 @@ const Card: FC<CardProps> = ({
     <div
       onClick={handleClick}
       className={cn(
-        "h-full border-2 rounded-xl border-b-4 hover:bg-black/5 p-4 lg:p-6 cursor-pointer active:border-b-2",
+        "h-full border-2 rounded-xl border-b-4 hover:bg-black/5 p-6 lg:p-6 cursor-pointer active:border-b-2",
         selected && "border-sky-300 bg-sky-100 hover:bg-sky-100",
         selected &&
           status === "correct" &&
@@ -56,7 +56,7 @@ const Card: FC<CardProps> = ({
           status === "wrong" &&
           "border-rose-300 bg-rose-100 hover:bg-rose-100",
         disabled && "pointer-events-none hover:bg-white",
-        type === "ASSIST" && "lg:p-3 w-full"
+        type === "ASSIST" && "lg:p-10 w-full"
       )}
     >
       {audio}
@@ -77,7 +77,7 @@ const Card: FC<CardProps> = ({
 
         <p
           className={cn(
-            "text-neutral-600 text-sm lg:text-base",
+            "text-neutral-600 text-5xl lg:text-5xl",
             selected && "border-sky-300 text-sky-500",
             selected &&
               status === "correct" &&
@@ -100,6 +100,17 @@ const Card: FC<CardProps> = ({
         >
           {shortcut}
         </div> */}
+        {/* hide border and shortcut number to appear at user and give the answer at center */}
+        <div
+          className={cn(
+            "lg:size-8 size-5 border-0 flex items-center justify-center rounded-lg to-neutral-400 lg:text-[15px] text-xs font-semibold",
+            selected && "border-sky-300 text-sky-500",
+            selected &&
+              status === "correct" &&
+              "border-green-300 text-green-500",
+            selected && status === "wrong" && "border-rose-300 text-rose-500"
+          )}
+        ></div>
       </div>
     </div>
   );

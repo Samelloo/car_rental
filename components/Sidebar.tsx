@@ -30,7 +30,7 @@ export const Sidebar = ({ className }: Props) => (
           height={190}
         />
         {/* <h1 className="text-2xl font-extrabold text-green-600 tracking-wide">
-          Lingo
+          genq
         </h1> */}
       </div>
     </Link>

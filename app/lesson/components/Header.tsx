@@ -3,7 +3,6 @@ import Image from "next/image";
 import { InfinityIcon, X } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { useExitModal } from "@/store/useExitModal";
-import { Button } from "@/components/ui/button";
 
 interface HeaderProps {
   hearts: number;
@@ -20,12 +19,10 @@ export const Header: FC<HeaderProps> = ({
 
   return (
     <header className="lg:pt-[50px] pt-[20px] px-10 flex gap-x-7 items-center justify-between max-w-[1140px] mx-auto w-full">
-      <Button variant={"secondary"}>
-        <X
-          onClick={open}
-          className="text-slate-500 hover:opacity-75 transition cursor-pointer"
-        />
-      </Button>
+      <X
+        onClick={open}
+        className="text-slate-500 hover:opacity-75 text-xl transition cursor-pointer"
+      />
 
       <Progress value={percentage} />
 

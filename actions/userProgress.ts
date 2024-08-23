@@ -54,7 +54,7 @@ export const upsertUserProgress = async (courseId: number) => {
     userId,
     activeCourseId: courseId,
     userName: user.username || "User",
-    userImgSrc: user.imageUrl || "/mascot.svg",
+    userImgSrc: user.imageUrl || "/genq-192.png",
   });
 
   revalidatePath("/courses");
@@ -141,7 +141,7 @@ export const refillHearts = async () => {
     .update(userProgress)
     .set({
       hearts: 5,
-      points: currentUserProgress.points - 50,
+      points: currentUserProgress.points - 100,
     })
     .where(eq(userProgress.userId, currentUserProgress.userId));
 
