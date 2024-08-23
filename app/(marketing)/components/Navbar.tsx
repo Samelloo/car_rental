@@ -19,7 +19,7 @@ const Navbar = () => {
           <Image
             src="/newgenq.png"
             priority
-            alt="Mascot"
+            alt="genq"
             width={70}
             height={70}
           />

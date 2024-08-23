@@ -42,6 +42,11 @@ export const sidebarItems = [
     label: "Shop",
     iconSrc: "/img/shop.svg",
   },
+  //   {
+  //     link: "/tester",
+  //     label: "Alphazoo",
+  //     iconSrc: "/img/shop.svg",
+  //   },
 ];
 
 export const quests = [
