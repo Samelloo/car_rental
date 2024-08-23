@@ -43,9 +43,9 @@ export const sidebarItems = [
     iconSrc: "/img/shop.svg",
   },
   //   {
-  //     link: "/tester",
-  //     label: "Alphazoo",
-  //     iconSrc: "/img/shop.svg",
+  //     link: "/advance",
+  //     label: "More",
+  //     iconSrc: "/img/more.svg",
   //   },
 ];
 

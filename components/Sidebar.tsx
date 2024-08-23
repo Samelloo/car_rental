@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { sidebarItems } from "@/constants";
-import { isAdmin } from "@/lib/admin";
 import { cn } from "@/lib/utils";
 import { ClerkLoaded, ClerkLoading, UserButton } from "@clerk/nextjs";
 import { SidebarItem } from "./SidebarItem";
 import { buttonVariants } from "./ui/button";
 import { Loader } from "lucide-react";
+import { isAdmin } from "@/lib/admin";
 
 type Props = {
   className?: string;
@@ -21,13 +21,14 @@ export const Sidebar = ({ className }: Props) => (
     )}
   >
     <Link href="/">
+      {/* old size for the image width={190} height={190} */}
       <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
         <Image
           src="/newgenq.png"
           priority
           alt="genq"
-          width={190}
-          height={190}
+          width={100}
+          height={100}
         />
         {/* <h1 className="text-2xl font-extrabold text-green-600 tracking-wide">
           genq
