@@ -40,7 +40,7 @@ export const upsertUserProgress = async (courseId: number) => {
       .set({
         activeCourseId: courseId,
         userName: user.username || "User",
-        userImgSrc: user.imageUrl || "/mascot.svg",
+        userImgSrc: user.imageUrl || "/genq-192.png",
       })
       .where(eq(userProgress.userId, userId));
 

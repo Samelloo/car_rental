@@ -15,7 +15,7 @@ const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GenQ",
-  description: "Learn, Practice and master new languages with Lingo.",
+  description: "Learn, Practice and master new languages with GenQ.",
   icons: {
     apple: "/genq-512.png",
     icon: "/genq-512.png",
