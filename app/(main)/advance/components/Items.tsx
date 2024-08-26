@@ -24,7 +24,7 @@ const Items = ({ hearts, points, hasActiveSubscription }: Props) => {
             Alphazoo
           </p>
         </div>
-        <Link href="/tester">
+        <Link href="/comingSoon">
           <Button>
             <div className="flex items-center">
               {/* <Image src="/points.svg" alt="Points" height={20} width={20} /> */}
