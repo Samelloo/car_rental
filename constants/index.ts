@@ -42,11 +42,11 @@ export const sidebarItems = [
     label: "Shop",
     iconSrc: "/img/icon/shop.svg",
   },
-  {
-    link: "/advance",
-    label: "More",
-    iconSrc: "/img/more.svg",
-  },
+  //   {
+  //     link: "/advance",
+  //     label: "More",
+  //     iconSrc: "/img/more.svg",
+  //   },
 ];
 
 export const quests = [
