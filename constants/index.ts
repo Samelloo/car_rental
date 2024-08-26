@@ -25,28 +25,28 @@ export const sidebarItems = [
   {
     link: "/learn",
     label: "Learn",
-    iconSrc: "/img/learn1.svg",
+    iconSrc: "/img/icon/learn.svg",
   },
   {
     link: "/leaderboard",
     label: "Leaderboard",
-    iconSrc: "/img/leaderboard1.svg",
+    iconSrc: "/img/icon/leaderboard.svg",
   },
   {
     link: "/quests",
     label: "Quests",
-    iconSrc: "/img/quests.svg",
+    iconSrc: "/img/icon/quest.svg",
   },
   {
     link: "/shop",
     label: "Shop",
-    iconSrc: "/img/shop.svg",
+    iconSrc: "/img/icon/shop.svg",
   },
-  //   {
-  //     link: "/advance",
-  //     label: "More",
-  //     iconSrc: "/img/more.svg",
-  //   },
+  {
+    link: "/advance",
+    label: "More",
+    iconSrc: "/img/more.svg",
+  },
 ];
 
 export const quests = [
