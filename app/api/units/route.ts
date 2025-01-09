@@ -1,8 +1,14 @@
 import { NextResponse } from "next/server";
 
+import Stripe from "stripe";
 import db from "@/db/drizzle";
 import { isAdmin } from "@/lib/admin";
 import { units } from "@/db/schema";
+
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+  typescript: true,
+  apiVersion: "2023-10-16",
+});
 
 export const GET = async () => {
   if (!isAdmin()) {

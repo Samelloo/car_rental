@@ -25,7 +25,7 @@ export const CoursesList = ({ activeCourseId, courses }: Props) => {
 
     startTransition(() => {
       upsertUserProgress(id).catch(() =>
-        toast.error("Could not choose the language. something went wrong.")
+        toast.error("Could not choose the language. Takdak Lagi Dalam Senarai.")
       );
     });
   };
